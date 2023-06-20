@@ -1,0 +1,134 @@
+*, :after, :before{
+    margin: 0px;
+    padding: 0px;
+  }
+/*----------
+  General
+-----------*/
+.container{
+    display: flex;
+    justify-content: center;
+}
+
+h2,h3,h4,h5{
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 1.25rem;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+}
+p{
+  font-family: 'arial', sans-serif;
+  font-size: 0.85rem;
+  font-weight: 400;
+  letter-spacing: 0.05em;
+}
+
+#newsletter{
+  width: 600px;
+  min-height: 300px;
+  background: #d3a05c;
+  box-shadow: 1px 2px 10px rgba(0,0,0,0.34);
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.bg-dark-silver {
+  background-color: #343a40!important;
+}
+.bg-white{ background-color: #ffffff!important;}
+.bg-grey{ background-color: #dadada!important;}
+
+.text-white{ color: #ffffff !important;}
+
+/*----------
+  Footer
+-----------*/
+
+#newsletter #footer .footer-top{
+  padding: 10px;
+}
+
+#newsletter #footer .footer-top table a{
+  text-decoration: none;
+  color: black;
+  font-size: 0.75rem;
+}
+
+/*----------
+  Content
+-----------*/
+
+#newsletter #content .panel-box .title{
+  font-size: 1.25rem;
+  font-weight: 600; 
+}
+#newsletter #content .panel-box .text{
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+#newsletter #content .panel-box .link{
+  width: 100px;
+  height: 25px;
+  display: block;
+  margin:0 auto;
+  position: relative;
+  z-index: 1;
+}
+#newsletter #content .panel-box .link.right{
+  background-image: url('../img/shopnow-arrow-right.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+#newsletter #content .panel-box .link.left{
+  background-image: url('../img/shopnow-arrow-left.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+/*----------
+  Footer
+-----------*/
+
+/*----------
+  Media
+-----------*/
+@media(min-width:700px){
+  #newsletter #content .panel-box .link.right{
+    margin-right: -30px;
+  }
+  #newsletter #content .panel-box .link.left{
+    margin-left: -30px;
+  }
+}
+/*----------
+  Header
+-----------*/
+.inner-panel{
+    background-color: rgba(255, 255, 255,0.55);
+    box-shadow: 1px 2px 10px rgba(0,0,0,0.34);
+}
+.banner{
+    background-image: url(../img/banner.png);
+    width: 100%;
+    height: 80vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.banner-text>h5{
+  font-size: 30px;
+}
+.content{
+  background-color: #d3a05c;
+  color: white;
+}
+
+
+
+/*----------
+  extra
+-----------*/
+
+.outer-panel{
+  width:60%;
+  background-color:rgba(0,0,0,0.059);
+}
